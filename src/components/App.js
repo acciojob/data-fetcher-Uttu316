@@ -15,7 +15,7 @@ const App = () => {
       const message = e.message
        setError(message)
      }).finally(()=>{
-  setLoading(false)
+  setIsLoading(false)
 })
   }
   useEffect(()=>{
